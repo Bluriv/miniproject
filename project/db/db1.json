@@ -1,0 +1,51 @@
+{
+    "users": [
+      {
+        "nama_lengkap": "kebon",
+        "email": "kebon@gmail.com",
+        "password": "kebon",
+        "saldo": 100000,
+        "point": 0,
+        "id": 2
+      }
+    ],
+  
+    "events": [
+      {
+        "nama_event": "konser wibu",
+        "kategori_event": "anime",
+        "date": "02-08-2023",
+        "time": "20:00",
+        "kota": "jakarta",
+        "detail_lokasi": "dufan",
+        "jenis_event": "online",
+        "biaya": 10000,
+        "image_link": "",
+        "max_peserta": 20,
+        "deskripsi_detail": "lorem lorem",
+        "deskripsi_singkat": "lorem",
+        "discount": 10,
+        "userId" : 2,
+        "id": 1
+      }
+    ],
+  
+    "cetak_tiket": [
+      {
+        "id": 1,
+        "userId" : 1,
+        "eventId" : 1,
+        "kode_referal" : 12345
+      }
+    ],
+  
+    "comments": [
+      {
+        "id": 1,
+        "eventId": 1,
+        "userId": 1,
+        "ulasan": "lorem ipsum bla bla bla",
+        "rate": 4
+      }
+    ]
+  }

@@ -1,0 +1,393 @@
+{
+  "users": [
+    {
+      "nama_lengkap": "kebon",
+      "email": "kebon@gmail.com",
+      "password": "kebon",
+      "saldo": 75000,
+      "point": 23,
+      "id": 1
+    },
+    {
+      "nama_lengkap": "caraka",
+      "email": "kebon2@gmail.com",
+      "password": "kebon",
+      "saldo": -120000,
+      "point": 8,
+      "id": 2
+    },
+    {
+      "nama_lengkap": "anggoro",
+      "email": "jati@gmail.com",
+      "password": "kebon",
+      "saldo": 75000,
+      "point": 5,
+      "id": 3
+    },
+    {
+      "nama_lengkap": "raka",
+      "email": "raka@gmail.com",
+      "password": "kebon",
+      "id": 4
+    },
+    {
+      "nama_lengkap": "rafa",
+      "email": "rafa@gmail.com",
+      "password": "kebon",
+      "saldo": 55000,
+      "point": 5,
+      "id": 5
+    },
+    {
+      "nama_lengkap": "haekal",
+      "email": "haekal@gmail.com",
+      "password": "kebon",
+      "saldo": 100000,
+      "point": 0,
+      "id": 6
+    },
+    {
+      "nama_lengkap": "raka",
+      "email": "raka2@gmail.com",
+      "password": "kebon",
+      "saldo": 75000,
+      "point": 3,
+      "id": 7
+    }
+  ],
+  "events": [
+    {
+      "nama_event": "konser wibu",
+      "kategori_event": "anime",
+      "date": "2023-08-17",
+      "time": "20:00",
+      "kota": "bogor",
+      "detail_lokasi": "sebelah sana",
+      "jenis_event": "online",
+      "biaya": 10000,
+      "image_link": "https://www.shutterstock.com/image-photo/crowd-raised-hands-concert-festival-260nw-1586074294.jpg",
+      "max_peserta": 11,
+      "deskripsi_detail": "lorem lorem",
+      "deskripsi_singkat": "lorem ,wlladlwdioh3 ajdbbdu2 asjdba,jbdq qwjdb asdbhgyewd sduqud dudkjabda sajdbasbds degdw jsakjs jsdjka dsjdue dwhdu",
+      "discount": 10,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "nama_event": "nobar naruto",
+      "date": "2023-08-24",
+      "time": "20:00",
+      "biaya": "5000",
+      "image_link": "https://i.pinimg.com/736x/d3/4e/fa/d34efaf3eeb49b882e0e74aba875afcb.jpg",
+      "max_peserta": -1,
+      "deskripsi_singkat": "nobar naruto 500 episode",
+      "deskripsi_detail": "Naruto juga mendapatkan jajak pendapat popularitas pertamanya di seluruh dunia, berjudul NARUTOP99, untuk menentukan 99 karakter paling populer dari franchise tersebut, sebagai bagian dari peringatan 20 tahun anime tersebut.",
+      "discount": "5",
+      "email_pembuat_acara": "1",
+      "detail_lokasi": "dirumah nya kebon",
+      "kota": "jakarta",
+      "jenis_event": "ofline",
+      "kategori_event": "anime",
+      "userId": "1",
+      "id": 3
+    },
+    {
+      "nama_event": "nonton wayang",
+      "date": "2023-08-23",
+      "time": "17:00",
+      "biaya": "10000",
+      "image_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD3_HCPRshaH0dNbIPEF2GTpSwL_SneV1uZA&usqp=CAU",
+      "max_peserta": 2,
+      "deskripsi_singkat": "nonton wayang sampai pagi",
+      "deskripsi_detail": "Dalam rangka memperingati 54 tahun berdirinya UKJGS, kami mempersembahkan Pagelaran Wayang 4.0 berupa penampilan wayang kulit, wayang wong, tari, dan karawitan yang bertajuk",
+      "discount": "10",
+      "detail_lokasi": "rumah caraka",
+      "kota": "tangerang",
+      "jenis_event": "ofline",
+      "kategori_event": "seni",
+      "userId": "5",
+      "id": 4
+    },
+    {
+      "nama_event": "ngaji sampai pagi",
+      "date": "2023-08-26",
+      "time": "10:00",
+      "biaya": 0,
+      "image_link": "https://berkahberjamaah.com/uploads/images/article/full/Banner_SemuaBisaNgaji_1100x600.jpg",
+      "max_peserta": 95,
+      "deskripsi_singkat": "berlomba lomba dalam kebaikan",
+      "deskripsi_detail": "Di masjid al-hidayah\n\nRangkaian Acara:\n\nNgaji Bareng ba’da subuh (Khotmil quran bil ghoib) bersama JQH PCNU\nIstighosah Kubro (Istighosah, Yasin Fadilah, Tahlil, Ta’lim)\nBazzar sembako murah oleh LAZISNU Mulyoagung\nSantunan 10 Anak Yatim & Duafa\nPembacaan shalawat (pra acara)",
+      "discount": 0,
+      "detail_lokasi": "masjid al-hidayah",
+      "kota": "tangerang",
+      "jenis_event": "ofline",
+      "kategori_event": "seni",
+      "userId": "3",
+      "id": 5
+    },
+    {
+      "nama_event": "ngobar sampai subuh",
+      "date": "2023-08-28",
+      "time": "19:00",
+      "biaya": 0,
+      "image_link": "https://www.gamelab.id/uploads/modules/NEWS/2019-12-12%20istilah-dunia-percodingan/4.png?1576149601723",
+      "max_peserta": 9,
+      "deskripsi_singkat": "ngoding bareng react js membuat mini project",
+      "deskripsi_detail": "Istilah dalam dunia coding\nJika kamu ingin mulai mempelajari coding atau pemrograman, beberapa istilah harus kamu ketahui terlebih dahulu, untuk mempermudah saat sudah melakukan coding nantinya. Dari beberapa istilah ini mungkin sebgaian sudah tidak asing lagi bagi kalian yang sudah sering menggunakan internet atau sering berselancar di mesin pencari, untuk mempersingkat waktu mari kita mulai dari istilah yang pertama.\n\n1. Agile atau Agile Software Development\nAgile adalah sebuah metode development software baik itu website, web application, ataupun mobile application yang fokus untuk menghasilkan secara terus-menerus sebuah software berkualitas tinggi dengan konsisten sehingga dapat meminimalisir biaya proyek dan meningkatkan nilai jual bisnis.\n\n2. AJAX (Asynchronous JavaScript and XML)\nSebuah teknik yang dapat dimungkinkan untuk membuat sebuah aplikasi website dalam interaktif. Jika kita lihat mulai dari pemanfaatan AJAX pada aplikasi website dimana ini dapat berkomunikasi dengan server pada latar belakang. Dengan begitu ini tidak akan mempengaruhi sebuah halaman web secara keseluruhannya.",
+      "discount": 0,
+      "email_pembuat_acara": "6",
+      "detail_lokasi": "rumah haekal",
+      "kota": "bogor",
+      "jenis_event": "ofline",
+      "kategori_event": "edukasi",
+      "userId": "6",
+      "id": 6
+    },
+    {
+      "nama_event": "test",
+      "date": "2023-08-17",
+      "time": "11:11",
+      "biaya": "2000",
+      "image_link": "https://ilmupedia.co.id/uploads/article/media_upload/13668/0.naruto.jpg",
+      "max_peserta": "4",
+      "deskripsi_singkat": "kebon",
+      "deskripsi_detail": "rafa detail",
+      "discount": 0,
+      "email_pembuat_acara": "1",
+      "detail_lokasi": "jati",
+      "kota": "bekasi",
+      "jenis_event": "online",
+      "kategori_event": "olahraga",
+      "userId": "1",
+      "id": 7
+    },
+    {
+      "nama_event": "purwadhika",
+      "date": "2023-08-29",
+      "time": "09:00",
+      "biaya": 0,
+      "image_link": "https://api.purwadhikax.com/promos/promo-banner-mobile-1683801322208.jpeg",
+      "max_peserta": "50",
+      "deskripsi_singkat": "Purwadhika keren",
+      "deskripsi_detail": "Melalui program Job Connector Bootcamp, kami ingin membuka kesempatan untuk siapa saja yang memulai karir di industri digital. Oleh karena itu, untuk mengikuti program ini, peserta program tidak harus memiliki background marketing ataupun digital marketing sebelumnya.\n\nLulusan program Job Connector Bootcamp akan mendapatkan fasilitas job connection, namun untuk lebih berpeluang mendapatkan pekerjaan peserta program idealnya memiliki kriteria sebagai berikut:\n\nUsia kurang atau sama dengan 30 tahun;\nLulusan S1/sederajat atau memiliki pengalaman kerja minimal 1 tahun.\nNotes tambahan: Untuk praktek digital ads, peserta program akan dikenakan biaya tambahan maksimal sebesar Rp200.000.",
+      "discount": "10",
+      "email_pembuat_acara": "1",
+      "detail_lokasi": "GOP 9",
+      "kota": "tangerang",
+      "jenis_event": "ofline",
+      "kategori_event": "edukasi",
+      "userId": "1",
+      "id": 8
+    }
+  ],
+  "cetak_tiket": [
+    {
+      "id": 1,
+      "userId": 1,
+      "eventId": 1,
+      "kode_referal": "123"
+    },
+    {
+      "userId": 3,
+      "eventId": 1,
+      "kode_referal": "802218",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "eventId": 3,
+      "kode_referal": "549689",
+      "id": 5
+    },
+    {
+      "userId": 3,
+      "eventId": 4,
+      "kode_referal": "769593",
+      "id": 6
+    },
+    {
+      "userId": "5",
+      "eventId": 4,
+      "kode_referal": "208964",
+      "id": 7
+    },
+    {
+      "userId": "5",
+      "eventId": 4,
+      "kode_referal": "660544",
+      "id": 8
+    },
+    {
+      "userId": "1",
+      "eventId": 5,
+      "kode_referal": "367502",
+      "id": 9
+    },
+    {
+      "userId": "1",
+      "eventId": 4,
+      "kode_referal": "495621",
+      "id": 10
+    },
+    {
+      "userId": "3",
+      "eventId": 3,
+      "kode_referal": "147321",
+      "id": 11
+    },
+    {
+      "userId": "7",
+      "eventId": 3,
+      "kode_referal": "001512",
+      "id": 12
+    },
+    {
+      "userId": "7",
+      "eventId": 1,
+      "kode_referal": "453361",
+      "id": 13
+    },
+    {
+      "userId": "7",
+      "eventId": 4,
+      "kode_referal": "214053",
+      "id": 14
+    },
+    {
+      "userId": "1",
+      "eventId": 4,
+      "kode_referal": "657115",
+      "id": 15
+    },
+    {
+      "userId": "1",
+      "eventId": 6,
+      "kode_referal": "127609",
+      "id": 16
+    },
+    {
+      "userId": "1",
+      "eventId": 3,
+      "kode_referal": "004214",
+      "id": 17
+    },
+    {
+      "userId": "1",
+      "eventId": 5,
+      "kode_referal": "000625",
+      "id": 18
+    },
+    {
+      "userId": "1",
+      "eventId": 5,
+      "kode_referal": "432582",
+      "id": 19
+    },
+    {
+      "userId": "1",
+      "eventId": 1,
+      "kode_referal": "962124",
+      "id": 20
+    },
+    {
+      "userId": "1",
+      "eventId": 1,
+      "kode_referal": "091524",
+      "id": 21
+    },
+    {
+      "userId": "1",
+      "eventId": 1,
+      "kode_referal": "200129",
+      "id": 22
+    },
+    {
+      "userId": "1",
+      "eventId": 1,
+      "kode_referal": "677181",
+      "id": 23
+    },
+    {
+      "userId": "1",
+      "eventId": 3,
+      "kode_referal": "958297",
+      "id": 24
+    },
+    {
+      "userId": "1",
+      "eventId": 3,
+      "kode_referal": "560205",
+      "id": 25
+    },
+    {
+      "userId": "1",
+      "eventId": 5,
+      "kode_referal": "627362",
+      "id": 26
+    },
+    {
+      "userId": "3",
+      "eventId": 5,
+      "kode_referal": "053441",
+      "id": 27
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "eventId": 1,
+      "userId": 1,
+      "comment": "lorem ipsum bla bla bla",
+      "rate": 4
+    },
+    {
+      "eventId": "4",
+      "userId": "1",
+      "comment": "keren banget pokoknya deh",
+      "rate": 0,
+      "id": 2
+    },
+    {
+      "eventId": "4",
+      "userId": "1",
+      "comment": "keren banget pokoknya deh hehehe",
+      "rate": 3,
+      "id": 3
+    },
+    {
+      "eventId": "1",
+      "userId": "1",
+      "comment": "mainnya hebat",
+      "rate": 0,
+      "id": 4
+    },
+    {
+      "eventId": "5",
+      "userId": "3",
+      "comment": "oke",
+      "rate": 0,
+      "id": 5
+    },
+    {
+      "eventId": "1",
+      "userid": "1",
+      "comment": "mainnya hebat",
+      "rate": 0,
+      "id": 6
+    },
+    {
+      "eventId": "5",
+      "userid": "2",
+      "comment": "latest comment",
+      "rate": 10,
+      "id": 7
+    },
+    {
+      "eventId": "5",
+      "userid": "2",
+      "comment": "latest comment",
+      "rate": 10,
+      "id": 8
+    }
+  ]
+}
